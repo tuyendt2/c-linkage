@@ -10,6 +10,8 @@ void dummy_function(){
 	cout << "address of b in source.cpp == " << &b << endl;
 	cout << "calling dummy_function() x == " << x << endl;
 	cout << "address of x in source.cpp == " << &x << endl;
+	cout << "calling dummy_function() variable == " << variable << endl;
+	cout << "address of variable in source.cpp == " << &variable << endl;
 }
 
 void testFunctionWithoutDefinition(){

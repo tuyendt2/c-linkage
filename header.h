@@ -10,6 +10,8 @@ void dummy_function();
 static int a = 100;
 // const global variable is internal linkage by default
 const int b = 10;
+// inline variable , external linkage
+inline const int variable = 10;
 // require 'static' keyword to avoid multiple definition linking error 
 static void testFunctionWithoutDefinition();
 // also require 'static' keyword to avoid multiple definition linking error 
