@@ -6,7 +6,7 @@ using namespace std;
 //extern int x = 110;
 // Only declaration is acceptable here
 extern int x;
-int main(){
+auto main() -> int{
 	a = 1000;
 	x = 1001;
 	dummy_function();
