@@ -40,4 +40,4 @@
 *.war           binary
 
 # Handle this file specially
-test_gitattributes.txt  text eol=lf
+test_gitattributes.txt  text eol=crlf
